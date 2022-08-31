@@ -1,2 +1,2 @@
 #!/bin/bashcd 
-./HOME
+cd ./home
