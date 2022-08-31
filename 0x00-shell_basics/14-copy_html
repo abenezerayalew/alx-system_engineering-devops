@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --update *.htm
+cp -u ./*.html ../
