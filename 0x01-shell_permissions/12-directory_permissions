@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir ebenz -m=751
+mkdir -m=751 ebenz 
