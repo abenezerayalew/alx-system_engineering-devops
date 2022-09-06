@@ -1,2 +1,2 @@
 #!/bin/bash
-alias mylist = "ls"
+alias mylist='ls' | mylist
