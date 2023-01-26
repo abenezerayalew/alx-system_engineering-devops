@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-i=3
-while [ $i -le 10 ]
+i=0
+while [ $i -le 8 ]
 do 
-if [ $i != 10 ]
+if [ $i != 8 ]
 then
 echo "Best School"
-if [ $i == 5 ]
+if [ $i == 2 ]
 then
 echo "bad luck"
 fi
-if [ $i == 8 ]
+if [ $i == 6 ]
 then
 echo "good luck"
 fi
 else
 echo -n "Best School"
 fi
-i=$(($i+1))
+((i++))
 done
