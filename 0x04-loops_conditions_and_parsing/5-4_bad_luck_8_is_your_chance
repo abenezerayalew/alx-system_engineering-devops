@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-i=1
+i=3
 while [ $i -le 10 ]
 do 
 if [ $i != 10 ]
 then
 echo "Best School"
-if [ $i == 3 ]
+if [ $i == 5 ]
 then
 echo "bad luck"
 fi
