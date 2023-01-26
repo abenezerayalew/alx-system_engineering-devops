@@ -6,7 +6,7 @@ do
 if [ $i != 10 ]
 then
 echo "Best School"
-if [ $i == 4 ]
+if [ $i == 3 ]
 then
 echo "bad luck"
 fi
