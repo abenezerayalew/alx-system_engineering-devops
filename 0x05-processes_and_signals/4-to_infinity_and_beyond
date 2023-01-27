@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 i=0
-while [ $i -le 5 ]
+while true
 do
-sleep 100 &
+
 echo "To infinity and beyond"
+sleep 2
 done
