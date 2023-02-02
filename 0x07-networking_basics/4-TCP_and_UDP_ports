@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that displays listening ports:
+PORT=8080
+while printf -v regex ':%04X .* 0A ' $PORT;grep -q "$regex" /proc/net/tcp*;do
+    ((PORT++))
+  done
+echo First free port number: $PORT
