@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+echo "Enter file name"
+read file
+git add $file
+echo "Enter commit name"
+read commit
+git commit -m "$commit"
+git push
