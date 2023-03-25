@@ -1,4 +1,4 @@
-cat /etc/ssh/ssh_config
+include /etc/ssh/ssh_config.d/*.conf
 
 # This is the ssh client system-wide configuration file.  See
 # ssh_config(5) for more information.  This file provides defaults for
